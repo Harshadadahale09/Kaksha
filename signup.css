@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(141, 187, 233);;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+}
+
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signup-form {
+    width: 300px;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #033747;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #012733;
+}
+
+.signup-container p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signup-container a {
+    color: #033747;
+    text-decoration: none;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-image:linear-gradient(#033747, #012733);;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
